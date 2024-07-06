@@ -32,8 +32,8 @@ public class SendMessage {
         Message message = new MimeMessage(session);
 
         // Set the from and to addresses
-        message.setFrom(new InternetAddress("nancypark2003@gmail.com"));
-        message.setRecipients(Message.RecipientType.TO, InternetAddress.parse("krithikasree02@gmail.com"));
+        message.setFrom(new InternetAddress("a@gmail.com"));
+        message.setRecipients(Message.RecipientType.TO, InternetAddress.parse("b@gmail.com"));
 
         // Set the subject and body of the message
         message.setSubject("Test message");
